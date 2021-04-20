@@ -1,0 +1,9 @@
+.\objects\led.o: ..\driver\src\led.c
+.\objects\led.o: ..\driver\inc\led.h
+.\objects\led.o: ..\cmsis\inc\stm32f4xx.h
+.\objects\led.o: ..\cmsis\inc\core_cm4.h
+.\objects\led.o: d:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\led.o: ..\cmsis\inc\core_cmInstr.h
+.\objects\led.o: ..\cmsis\inc\core_cmFunc.h
+.\objects\led.o: ..\cmsis\inc\core_cm4_simd.h
+.\objects\led.o: ..\cmsis\inc\system_stm32f4xx.h

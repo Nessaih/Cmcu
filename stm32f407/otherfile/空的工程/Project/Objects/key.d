@@ -1,0 +1,17 @@
+.\objects\key.o: ..\Driver\src\Key.c
+.\objects\key.o: ..\Driver\inc\Key.h
+.\objects\key.o: ..\CMSIS\inc\stm32f4xx.h
+.\objects\key.o: ..\CMSIS\inc\core_cm4.h
+.\objects\key.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\key.o: ..\CMSIS\inc\core_cmInstr.h
+.\objects\key.o: ..\CMSIS\inc\core_cmFunc.h
+.\objects\key.o: ..\CMSIS\inc\core_cm4_simd.h
+.\objects\key.o: ..\CMSIS\inc\system_stm32f4xx.h
+.\objects\key.o: ..\Driver\inc\delay.h
+.\objects\key.o: ..\USER\inc\type.h
+.\objects\key.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\key.o: ..\Driver\inc\USART.h
+.\objects\key.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\key.o: ..\Driver\inc\led.h
+.\objects\key.o: ..\CMSIS\inc\sys.h
+.\objects\key.o: ..\Driver\inc\Beep.h

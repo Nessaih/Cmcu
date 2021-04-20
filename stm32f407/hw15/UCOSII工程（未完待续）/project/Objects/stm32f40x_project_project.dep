@@ -1,0 +1,379 @@
+Dependencies for Project 'stm32f40x_project', Target 'project': (DO NOT MODIFY !)
+F (..\App\src\usart1.c)(0x5B62EF51)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\usart1.o --omf_browse .\objects\usart1.crf --depend .\objects\usart1.d)
+I (..\App\inc\usart1.h)(0x5B5C1498)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (..\Driver\inc\led.h)(0x5B4F3944)
+I (..\User\inc\type.h)(0x5B2B6A1B)
+I (..\CMSIS\inc\sys.h)(0x59C4C6F1)
+F (..\Driver\src\Beep.c)(0x5B4EE863)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\beep.o --omf_browse .\objects\beep.crf --depend .\objects\beep.d)
+I (..\Driver\inc\Beep.h)(0x5B62F943)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+I (..\CMSIS\inc\sys.h)(0x59C4C6F1)
+F (..\Driver\src\key.c)(0x5B62F96B)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\key.o --omf_browse .\objects\key.crf --depend .\objects\key.d)
+I (..\Driver\inc\key.h)(0x5B62F943)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+I (..\User\inc\type.h)(0x5B2B6A1B)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\CMSIS\inc\sys.h)(0x59C4C6F1)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+F (..\Driver\src\led.c)(0x5B643C74)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\led.o --omf_browse .\objects\led.crf --depend .\objects\led.d)
+I (..\Driver\inc\led.h)(0x5B4F3944)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+I (..\User\inc\type.h)(0x5B2B6A1B)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (..\CMSIS\inc\sys.h)(0x59C4C6F1)
+F (..\CMSIS\src\system_stm32f4xx.c)(0x5AF41448)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\CMSIS\src\stm32f4xx_it.c)(0x5B461E09)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
+I (..\CMSIS\inc\stm32f4xx_it.h)(0x5426CDC1)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\User\src\main.c)(0x5B644F59)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\User\inc\type.h)(0x5B2B6A1B)
+I (..\UCOS_TASK\inc\start_task.h)(0x5B461DFB)
+I (..\UCOS_TASK\inc\key_task.h)(0x5B644B8E)
+I (..\UCOS_TASK\inc\led_task.h)(0x5B64416E)
+I (..\Driver\inc\led.h)(0x5B4F3944)
+I (..\CMSIS\inc\sys.h)(0x59C4C6F1)
+I (..\App\inc\usart1.h)(0x5B5C1498)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\time.h)(0x54C245B8)
+I (..\Driver\inc\beep.h)(0x5B62F943)
+I (..\Driver\inc\key.h)(0x5B62F943)
+F (..\Startup\startup_stm32f40_41xxx.s)(0x5B651521)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 515" --pd "STM32F40_41xxx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (..\UCOSII\CONFIG\includes.h)(0x53B63816)()
+F (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)()
+F (..\UCOSII\CORE\os_core.c)(0x58080740)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_core.o --omf_browse .\objects\os_core.crf --depend .\objects\os_core.d)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\CORE\os_flag.c)(0x500F7B58)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_flag.o --omf_browse .\objects\os_flag.crf --depend .\objects\os_flag.d)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\CORE\os_mbox.c)(0x500F7B58)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_mbox.o --omf_browse .\objects\os_mbox.crf --depend .\objects\os_mbox.d)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\CORE\os_mem.c)(0x500F6FD0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_mem.o --omf_browse .\objects\os_mem.crf --depend .\objects\os_mem.d)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\CORE\os_mutex.c)(0x500F7B58)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_mutex.o --omf_browse .\objects\os_mutex.crf --depend .\objects\os_mutex.d)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\CORE\os_q.c)(0x500F7B58)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_q.o --omf_browse .\objects\os_q.crf --depend .\objects\os_q.d)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\CORE\os_sem.c)(0x500F7B58)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_sem.o --omf_browse .\objects\os_sem.crf --depend .\objects\os_sem.d)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\CORE\os_task.c)(0x500F7B58)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_task.o --omf_browse .\objects\os_task.crf --depend .\objects\os_task.d)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\CORE\os_time.c)(0x500F7B58)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_time.o --omf_browse .\objects\os_time.crf --depend .\objects\os_time.d)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\CORE\os_tmr.c)(0x500F7B58)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_tmr.o --omf_browse .\objects\os_tmr.crf --depend .\objects\os_tmr.d)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\PORT\os_cpu_c.c)(0x53B67494)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\os_cpu_c.o --omf_browse .\objects\os_cpu_c.crf --depend .\objects\os_cpu_c.d)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+F (..\UCOSII\PORT\os_cpu_a.asm)(0x53B68AE0)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"--pd "__UVISION_VERSION SETA 515" --pd "STM32F40_41xxx SETA 1"--list .\listings\os_cpu_a.lst --xref -o .\objects\os_cpu_a.o --depend .\objects\os_cpu_a.d)
+F (..\UCOS_TASK\src\start_task.c)(0x5B461C7C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\start_task.o --omf_browse .\objects\start_task.crf --depend .\objects\start_task.d)
+I (..\UCOS_TASK\inc\start_task.h)(0x5B461DFB)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\User\inc\type.h)(0x5B2B6A1B)
+F (..\UCOS_TASK\src\key_task.c)(0x5B65A13C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\key_task.o --omf_browse .\objects\key_task.crf --depend .\objects\key_task.d)
+I (..\UCOS_TASK\inc\key_task.h)(0x5B644B8E)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\User\inc\type.h)(0x5B2B6A1B)
+I (..\Driver\inc\key.h)(0x5B62F943)
+I (..\CMSIS\inc\sys.h)(0x59C4C6F1)
+I (..\App\inc\usart1.h)(0x5B5C1498)
+I (..\Driver\inc\led.h)(0x5B4F3944)
+F (..\UCOS_TASK\src\beep_task.c)(0x5B62F943)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\beep_task.o --omf_browse .\objects\beep_task.crf --depend .\objects\beep_task.d)
+I (..\UCOS_TASK\inc\beep_task.h)(0x5B62F6CE)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\User\inc\type.h)(0x5B2B6A1B)
+I (..\Driver\inc\beep.h)(0x5B62F943)
+I (..\CMSIS\inc\sys.h)(0x59C4C6F1)
+F (..\UCOS_TASK\src\led_task.c)(0x5B65A1A7)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\App\inc -I..\CMSIS\inc -I..\Driver\inc -I..\User\inc -I..\UCOSII\CONFIG -I..\UCOSII\CORE -I..\UCOSII\PORT -I..\UCOS_TASK\inc-I E:\友讯达\keilwokplace\hw15\UCOSII工程\project\RTE-I "E:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include"-I "E:\Program Files\Keil_v5\ARM\CMSIS\Include"-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\led_task.o --omf_browse .\objects\led_task.crf --depend .\objects\led_task.d)
+I (..\UCOS_TASK\inc\led_task.h)(0x5B64416E)
+I (..\CMSIS\inc\stm32f4xx.h)(0x5AF3B33D)
+I (..\CMSIS\inc\core_cm4.h)(0x53C7D530)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\CMSIS\inc\core_cmInstr.h)(0x5851605A)
+I (..\CMSIS\inc\core_cmFunc.h)(0x53C7D530)
+I (..\CMSIS\inc\core_cm4_simd.h)(0x53C7D530)
+I (..\CMSIS\inc\system_stm32f4xx.h)(0x53DBA499)
+I (..\UCOSII\CONFIG\includes.h)(0x53B63816)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x54C245B8)
+I (E:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x54C245B8)
+I (..\UCOSII\CORE\ucos_ii.h)(0x500F7C16)
+I (..\UCOSII\CONFIG\os_cfg.h)(0x53B6A21E)
+I (..\UCOSII\PORT\os_cpu.h)(0x502E57CA)
+I (..\User\inc\type.h)(0x5B2B6A1B)
+I (..\Driver\inc\key.h)(0x5B62F943)
+I (..\CMSIS\inc\sys.h)(0x59C4C6F1)
+I (..\Driver\inc\led.h)(0x5B4F3944)
+I (..\UCOS_TASK\inc\key_task.h)(0x5B644B8E)
+I (..\App\inc\usart1.h)(0x5B5C1498)

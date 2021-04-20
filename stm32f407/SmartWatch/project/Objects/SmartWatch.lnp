@@ -1,0 +1,26 @@
+--cpu Cortex-M4.fp
+".\objects\main.o"
+".\objects\menu.o"
+".\objects\startup_stm32f411xe.o"
+".\objects\usart.o"
+".\objects\delay.o"
+".\objects\spi.o"
+".\objects\iic.o"
+".\objects\rtc.o"
+".\objects\led.o"
+".\objects\key.o"
+".\objects\oled_screen.o"
+".\objects\sht20.o"
+".\objects\motor.o"
+".\objects\hp6.o"
+".\objects\hp6_iic.o"
+".\objects\mpu6050.o"
+".\objects\stepalgorithm.o"
+".\objects\watchinfo.o"
+".\objects\bluetooth.o"
+".\objects\gpio.o"
+".\objects\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter ".\Objects\SmartWatch.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\SmartWatch.map" -o .\Objects\SmartWatch.axf

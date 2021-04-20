@@ -1,0 +1,41 @@
+Dependencies for Project 'usart1', Target 'usart1': (DO NOT MODIFY !)
+F (..\cmsis\src\system_stm32f4xx.c)(0x53DBBB10)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\app\inc -I..\cmsis\inc -I..\driver\inc -I..\user\inc-I D:\keilwokplace\hw3\usart1\project\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\system_stm32f4xx.o --omf_browse .\objects\system_stm32f4xx.crf --depend .\objects\system_stm32f4xx.d)
+I (..\cmsis\inc\stm32f4xx.h)(0x53DBA48A)
+I (..\cmsis\inc\core_cm4.h)(0x53C7D532)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\cmsis\inc\core_cmInstr.h)(0x53C7D532)
+I (..\cmsis\inc\core_cmFunc.h)(0x53C7D532)
+I (..\cmsis\inc\core_cm4_simd.h)(0x53C7D532)
+I (..\cmsis\inc\system_stm32f4xx.h)(0x53DBA49A)
+F (..\cmsis\src\stm32f4xx_it.c)(0x5426CDF4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\app\inc -I..\cmsis\inc -I..\driver\inc -I..\user\inc-I D:\keilwokplace\hw3\usart1\project\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
+I (..\cmsis\inc\stm32f4xx_it.h)(0x5426CDC1)
+I (..\cmsis\inc\stm32f4xx.h)(0x53DBA48A)
+I (..\cmsis\inc\core_cm4.h)(0x53C7D532)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\cmsis\inc\core_cmInstr.h)(0x53C7D532)
+I (..\cmsis\inc\core_cmFunc.h)(0x53C7D532)
+I (..\cmsis\inc\core_cm4_simd.h)(0x53C7D532)
+I (..\cmsis\inc\system_stm32f4xx.h)(0x53DBA49A)
+F (..\app\src\usart1.c)(0x5B51449C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\app\inc -I..\cmsis\inc -I..\driver\inc -I..\user\inc-I D:\keilwokplace\hw3\usart1\project\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\usart1.o --omf_browse .\objects\usart1.crf --depend .\objects\usart1.d)
+I (..\app\inc\usart1.h)(0x5B51449C)
+I (..\cmsis\inc\stm32f4xx.h)(0x53DBA48A)
+I (..\cmsis\inc\core_cm4.h)(0x53C7D532)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\cmsis\inc\core_cmInstr.h)(0x53C7D532)
+I (..\cmsis\inc\core_cmFunc.h)(0x53C7D532)
+I (..\cmsis\inc\core_cm4_simd.h)(0x53C7D532)
+I (..\cmsis\inc\system_stm32f4xx.h)(0x53DBA49A)
+I (..\user\inc\type.h)(0x5B4EBB1B)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+F (..\startup\startup_stm32f40_41xxx.s)(0x529EC0A2)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I D:\keilwokplace\hw3\usart1\project\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "STM32F40_41xxx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
+F (..\user\src\main.c)(0x5B51449C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I..\app\inc -I..\cmsis\inc -I..\driver\inc -I..\user\inc-I D:\keilwokplace\hw3\usart1\project\RTE-I d:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include-I d:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F40_41xxx -DSTM32F40_41xxx-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (..\app\inc\usart1.h)(0x5B51449C)
+I (..\cmsis\inc\stm32f4xx.h)(0x53DBA48A)
+I (..\cmsis\inc\core_cm4.h)(0x53C7D532)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (..\cmsis\inc\core_cmInstr.h)(0x53C7D532)
+I (..\cmsis\inc\core_cmFunc.h)(0x53C7D532)
+I (..\cmsis\inc\core_cm4_simd.h)(0x53C7D532)
+I (..\cmsis\inc\system_stm32f4xx.h)(0x53DBA49A)
+I (..\user\inc\type.h)(0x5B4EBB1B)
+I (d:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)

@@ -1,0 +1,9 @@
+.\objects\test.o: ..\user\src\test.c
+.\objects\test.o: ..\user\inc\test.h
+.\objects\test.o: ..\CMSIS\Include\stm32f4xx.h
+.\objects\test.o: ..\CMSIS\Include\core_cm4.h
+.\objects\test.o: D:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\test.o: ..\CMSIS\Include\core_cmInstr.h
+.\objects\test.o: ..\CMSIS\Include\core_cmFunc.h
+.\objects\test.o: ..\CMSIS\Include\core_cm4_simd.h
+.\objects\test.o: ..\CMSIS\Include\system_stm32f4xx.h
