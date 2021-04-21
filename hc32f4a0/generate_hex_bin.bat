@@ -23,8 +23,10 @@
 :: Merge two HEX files which have no address overlaps:
 @echo off&setlocal enabledelayedexpansion 
 set n=1
+set dt=%date:~0,4%-%date:~5,2%-%date:~8,2%.%time:~0,2%%time:~3,2%%time:~6,2%
 for /r %%i in (*.hex) do (
-    set "str= %%~i"
+    REM %%~pnxi:  p:the file's path; n:the file's name; x: the file's expanded-name
+    set "str=%%~i"
     if "!n!"=="1" (
         set file1=!str!
     ) else if "!n!"=="2" (
@@ -32,5 +34,11 @@ for /r %%i in (*.hex) do (
     )
     set /a "n=n+1"
 )
-.\srec_cat.exe %file1% -Intel %file2% -Intel -output_block_size=16 -o merged_hex_file.hex -Intel
-
+if exist "%~dp0\hc32f4a0\" (
+    echo hc32f4a0 folder already exist.
+) else (
+    mkdir hc32f4a0
+    echo create hc32f4a0 folder.
+)
+.\srec_cat.exe %file1% -Intel %file2% -Intel -output_block_size=16 -o .\hc32f4a0\hc32f4a0_%dt%.hex -Intel
+.\srec_cat.exe  .\hc32f4a0\hc32f4a0_%dt%.hex -Intel -o  .\hc32f4a0\hc32f4a0_%dt%.bin -Binary
